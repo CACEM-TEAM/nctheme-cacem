@@ -25,7 +25,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getBaseUrl() {
-		return 'https://nextcloud.com';
+		return 'https://partage.cacem.fr';
 	}
 
 	/**
@@ -33,7 +33,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getDocBaseUrl() {
-		return 'https://docs.nextcloud.com';
+		return 'https://partage.cacem.fr';
 	}
 
 	/**
@@ -41,7 +41,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getTitle() {
-		return 'Custom Cloud';
+		return 'Espace de Partages CACEM';
 	}
 
 	/**
@@ -49,7 +49,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getName() {
-		return 'Custom Cloud';
+		return 'Espace de Partages CACEM';
 	}
 
 	/**
@@ -57,7 +57,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return 'Custom Cloud';
+		return 'Espace de Partages CACEM';
 	}
 
 	/**
@@ -65,7 +65,7 @@ class OC_Theme {
 	 * @return string entity name
 	 */
 	public function getEntity() {
-		return 'Custom Cloud Co.';
+		return 'CACEM';
 	}
 
 	/**
@@ -73,7 +73,7 @@ class OC_Theme {
 	 * @return string slogan
 	 */
 	public function getSlogan() {
-		return 'Your custom cloud, personalized for you!';
+		return 'Espace de partage communautaire CACEM !';
 	}
 
 	/**
@@ -112,7 +112,7 @@ class OC_Theme {
 	 * @return string
 	 */
 	public function getColorPrimary() {
-		return '#745bca';
+		return 'hsl(140, 71%, 44%)';
 	}
 
 	/**
@@ -121,7 +121,7 @@ class OC_Theme {
 	 */
 	public function getScssVariables() {
 		return [
-			'color-primary' => '#745bca'
+			'color-primary' => 'hsl(140, 71%, 44%)'
 		];
 	}
 }
