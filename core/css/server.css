@@ -22,7 +22,7 @@
 #body-user #header,
 #body-settings #header,
 #body-public #header {
-	background-color: #745bca;
+	background-color: hsl(140, 71%, 44%);
 }
 
 /* log in screen background color */
