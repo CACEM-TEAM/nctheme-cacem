@@ -16,9 +16,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
  :root {
-	 --border-radius-large: 4px !important;
-	 --border-radius-pill: 4px !important;
-	 --body-container-radius: 5px !important;
+	 --border-radius-large: 2px !important;
+	 --border-radius-pill: 2px !important;
+	 --body-container-radius: 2px !important;
 	 --body-padding-top: 10px !important;
  }
 
