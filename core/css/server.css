@@ -33,6 +33,11 @@
 	margin-bottom: 5px;
 }
 
+button:not(.button-vue), .button, input[type=button], input[type=submit], input[type=reset] {
+    font-weight: bold;
+    border-radius:0em !important;
+}
+
 /* log in screen background color */
 /* gradient of the header color and a brighter shade */
 /* can also be a flat color or an image */
